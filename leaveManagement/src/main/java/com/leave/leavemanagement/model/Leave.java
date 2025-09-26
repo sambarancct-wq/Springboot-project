@@ -19,6 +19,7 @@ public class Leave {
     private String reason;
 
     // Constructors
+    //This has to have NO ARGUMENTS
     public Leave() {
     }
 

@@ -16,7 +16,7 @@ public class LeaveService {
 
     public List<Leave> getAllLeaves() {
         return leaveRepository.findAll();
-    }
+    } 
 
     public Optional<Leave> getLeaveById(Long id) {
         return leaveRepository.findById(id);
